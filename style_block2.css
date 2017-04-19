@@ -1,7 +1,7 @@
 .caption {
   font-weight: 900;
   width: 100%;
-  margin: 0 10px;
+  /*margin: 0 10px;*/
   color: #111;
   border-bottom: 1px solid #999;
 }
@@ -41,7 +41,7 @@
 .birthday_value, .city_value, .website_value {
   display: inline-block;
   margin: 15px 0 5px 15px;
-  color: #3333cc;
+  color: #2a5885;
 }
 
 .birthday_value span {
@@ -68,7 +68,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 22px;
-  color: #009;
+  color: #2a5885;
   line-height: 0;
 }
 
