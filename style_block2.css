@@ -1,0 +1,108 @@
+body {
+  color: #828282;
+  background-color: #ffffff;
+}
+
+a {
+  color: #2a588d;
+}
+
+h1 {
+  color: #000000;
+}
+
+
+/*background-color: #5e81a8;*/
+
+
+/*background-color: #ffffff;*/
+
+
+/*background-color: #e5ebf1;*/
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+social_counters {
+  font-size: 19px;
+}
+
+.caption {
+  font-weight: 900;
+  width: 100%;
+  margin: 0 10px;
+  color: #111;
+  border-bottom: 1px solid #999;
+}
+
+.name_h {
+  float: left;
+  top: 15px;
+  margin: 10px;
+  font-size: 19px;
+}
+
+.last_visit {
+  float: right;
+  color: #999;
+  margin: 10px 10px 0 0;
+  font-size: 11px;
+}
+
+.text {
+  margin-bottom: 15px;
+  padding: 42px 0 0 10px;
+  font-size: 13px;
+}
+
+.main_info {
+  width: 100%;
+  border-bottom: 1px solid #999;
+  margin-bottom: 15px;
+}
+
+.birthday_property, .city_property, .website_property {
+  margin: 15px 0 5px 15px;
+  display: inline-block;
+  width: 200px;
+}
+
+.birthday_value, .city_value, .website_value {
+  display: inline-block;
+  margin: 15px 0 5px 15px;
+  color: #3333cc;
+}
+
+.birthday_value span {
+  color: #000;
+}
+
+.detailed_information {
+  display: block;
+  margin: 10px 0 15px 230px;
+}
+
+.counters {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.common_friend, .friends, .sibscribers, .photos, .label{
+  display: inline-block;
+}
+
+
+.common_friend_count, .friends_count, .sibscribers_count, .photos_count, .label_count {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  color: #009;
+  line-height: 0;
+}
+
+.common_friend, .friends, .sibscribers, .photos, .label {
+
+}
