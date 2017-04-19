@@ -35,16 +35,15 @@ font-weight: 400;
     margin: 0 auto;
 }
 
-.info{
-    background-color: white;
-}
 .left_bloks{
     float: left;
     position: relative;
     width: 230px;
 }
 .right_bloks{
-    float: right;
+    float: left;
+    width: 550px;
+    margin-left: 25px;
     position: relative;
 }
 .counts_module{
@@ -68,6 +67,13 @@ font-weight: 400;
     line-height: 40px;
     font-size: 12.5px;
     margin-right: 15px;
+    float: right;
+}
+.header_right_link:hover{
+    text-decoration: underline;
+}
+.people_module.all-friends{
+    border-top: 1px solid #e7e8ec;
 }
 .people_module .header_top {
     height: 32px;
@@ -86,7 +92,8 @@ font-weight: 400;
     padding: 0 6px;
 }
 .header_label{
-
+    color: #000;
+    font-weight: 400;
 }
 .people_table{
     padding: 6px 10px 8px;
@@ -113,4 +120,16 @@ font-weight: 400;
 }
 .people_cell_name a:hover{
     text-decoration: underline;
+}
+.header_foto .header_top {
+    padding: 4px 20px 0;
+    font-size: 13px;
+    height: 32px;
+    line-height: 40px;
+    color: #000;
+}
+.page_photos_module {
+    padding: 13px 10px 20px;
+    height: 123px;
+    text-align: center;
 }
